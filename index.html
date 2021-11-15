@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Windy City Tradez</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!-- Home page section -->
+	<div id="home">
+
+<!-- Navigation start -->
+		<nav class="navbar navbar-expand=md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#"><img src="img/sneakerlogo.png" /></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#listings">List Your Sneakers to Trade/Sell</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#categories">Shop by Category</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sizes">Shop by Size</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#testimonials">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+<!-- Navigation end -->
+
+<!-- Start Landing  Page -->
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner">
+
+				</div>
+			</div>
+		</div>
+
+		<div class="caption text-center">
+			<h1>Windy City Tradez</h1>
+			<h3>Trade/Sell locally for quick cash or for the sneakers you really want!</h3>
+			<a class="btn btn-outline-light btn-lg" href="#listings">Start trading/selling today!</a>
+		</div>
+<!-- End Landing Page -->
+	    </div>
+<!-- End of Home page -->
+
+<!-- Listing (Selling or Trading) sneakers -->
+	<div id="listings" class="offset">
+		<div class="col-12 narrow text-center">
+			<h1>List sneakers you want to trade or sell!</h1>
+			<p class="lead">Fill in the information below</p>
+				<fieldset>
+					<form>
+						<label for="brand">
+							Enter Brand: <input type="text" id="brand" name="brand" />
+						</label>
+					</form>
+					<form>
+						<label for="model">
+							Model name: <input type="text" id="model" name="model" />
+						</label>
+					</form>
+					<form>
+						<label for="size">
+							Shoe Size(US): <input type="text" id="size" name="size" />
+						</label>
+					</form>
+					<form>
+						<label for="condition">
+							Shoe Condition: <select id="conditon" name="condition">
+												<option value="new">Brand New/Never Worn</option>
+												<option value="great">Slightly Used/Almost New Conditon</option>
+												<option value="good">Used/Good Condition</option>
+												<option value="bad">Very Used/Bad Condition</option>
+											</select>
+						</label>
+					</form>
+					<a class="btn btn-secondary btn-md" href="" target="_blank">Submit</a> 
+					<!-- target="_blank" is a link you can put that will send users to a different page -->
+				</fieldset>
+			</div>
+	</div>
+<!-- end of listings -->
+
+<!-- Shop by categories -->
+	<div id="categories" class="offset">
+		<div class="col-12 narrow text-center">
+			<h3>Search the sneaker you want</h3>
+				<form>
+					<label for="jordans">
+						Air Jordans: <select id="jordans" name="jordans">
+							<option value="jordan1">Jordan 1</option>
+							<option value="jordan2">Jordan 2</option>
+							<option value="jordan3">Jordan 3</option>
+							<option value="jordan4">Jordan 4</option>
+							<option value="jordan5">Jordan 5</option>
+							<option value="jordan6">Jordan 6</option>
+							<option value="jordan7">Jordan 7</option>
+							<option value="jordan8">Jordan 8</option>
+							<option value="jordan9">Jordan 9</option>
+							<option value="jordan10">Jordan 10</option>
+							<option value="jordan11">Jordan 11</option>
+							<option value="jordan12">Jordan 12</option>
+							<option value="jordan13">Jordan 13</option>
+							<option value="jordan14">Jordan 14</option>
+							<option value="otherJordans">Other Jordan Models</option>
+									</select>
+					</label>
+				</form>
+
+				<form>
+					<label for="yeezys">
+						Yeezys: <select id="yeezys" name="yeezys">
+							<option value="yeezy350">Yeezy 350</option>
+							<option value="yeezy380">Yeezy 380</option>
+							<option value="yeeezy450">Yeezy 450</option>
+							<option value="yeezy500">Yeezy 500</option>
+							<option value="yeezy700">Yeezy 700</option>
+							<option value="yeezy750">Yeezy 750</option>
+							<option value="qntm">Yeezy QNTM</option>
+							<option value="foamrunner">Yeezy Foam Runner</option>
+							<option value="yeezyslides">Yeezy Slide</option>
+							<option value="powerphase">Yeezy Powerphase</option>
+							<option value="otherYeezys">Other Yeezys</option>
+						</select>
+					</label>
+				</form>
+		</div>
+		
+	</div>
+<!-- end of categories -->
+
+<!-- size category -->
+	<div id="sizes" class="offset">
+
+	</div>
+<!-- end of size category -->
+
+<!-- testimonials -->
+	<div id="testimonials" class="offset">
+
+	</div>
+<!-- end of testimonials-->
+
+<!-- contact -->
+	<div id="contact" class="offset">
+
+	</div>
+<!-- end of contact -->
+
+<!--- Script Source Files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<!--- End of Script Source Files -->
+
+</body>
+
+</html>
